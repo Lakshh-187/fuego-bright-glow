@@ -38,8 +38,10 @@ export function SiteFooter() {
           <h4 className="text-white font-semibold mb-4">Reach us</h4>
           <ul className="space-y-3 text-sm text-white/70">
             <li className="flex gap-2"><MapPin className="h-4 w-4 mt-0.5 text-primary shrink-0" /> No 17, Usan Street, Total Cooperative Society, Gaduwa, Abuja, Nigeria</li>
-            <li className="flex gap-2"><Mail className="h-4 w-4 mt-0.5 text-primary" /> info@fuegogas.ng</li>
-            <li className="flex gap-2"><Phone className="h-4 w-4 mt-0.5 text-primary" /> +234 (0) 800 FUEGO</li>
+            <li className="flex gap-2"><Mail className="h-4 w-4 mt-0.5 text-primary" /> <a href="mailto:contact@fuegogas.com" className="hover:text-primary">contact@fuegogas.com</a></li>
+            <li className="flex gap-2"><Phone className="h-4 w-4 mt-0.5 text-primary shrink-0" /> <span><span className="block text-white">Capt Bora — Grade One</span><a href="tel:+919910923879" className="hover:text-primary">+91 99109 23879</a></span></li>
+            <li className="flex gap-2"><Phone className="h-4 w-4 mt-0.5 text-primary shrink-0" /> <span><span className="block text-white">Arpit — Sales Head</span><a href="tel:+2349041412211" className="hover:text-primary">+234 904 141 2211</a></span></li>
+            <li><a href="https://wa.me/2349041412211" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90">WhatsApp Sales Help Desk</a></li>
           </ul>
         </div>
       </div>
