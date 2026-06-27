@@ -6,9 +6,9 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-50 backdrop-blur-md bg-background/85 border-b border-border">
       <div className="mx-auto max-w-7xl px-6 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
-          <img src={logo.url} alt="Fuego" className="h-10 w-auto" />
-          <span className="font-display text-xl font-bold tracking-tight">
+        <Link to="/" className="flex items-center gap-1.5">
+          <img src={logo.url} alt="Fuego" className="h-14 w-auto drop-shadow-sm" />
+          <span className="font-display text-xl font-bold tracking-tight leading-none">
             Fuego<span className="text-primary"> Gas Generator</span>
           </span>
         </Link>
