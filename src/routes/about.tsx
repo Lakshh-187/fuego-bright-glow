@@ -34,7 +34,7 @@ function About() {
             </p>
           </div>
           <div className="relative">
-            <div className="aspect-square rounded-3xl bg-flame shadow-flame flex items-center justify-center p-12">
+            <div className="aspect-square rounded-3xl bg-white shadow-soft flex items-center justify-center p-12">
               <img src={logo.url} alt="Fuego logo" className="w-full max-w-sm drop-shadow-2xl" />
             </div>
           </div>

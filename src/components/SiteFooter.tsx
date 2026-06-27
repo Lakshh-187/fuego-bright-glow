@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-6 py-16 grid gap-12 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-2">
-            <img src={logo.url} alt="Fuego" className="h-10 w-auto" />
+            <img src={logo.url} alt="Fuego" className="h-12 w-auto" />
             <span className="font-display text-xl font-bold">Fuego Gas Generator</span>
           </div>
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
