@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/fuego-logo.asset.json";
+import logo from "@/assets/fuego-logo-v2.asset.json";
 import { Phone } from "lucide-react";
 
 export function SiteHeader() {
@@ -9,7 +9,7 @@ export function SiteHeader() {
         <Link to="/" className="flex items-center gap-2">
           <img src={logo.url} alt="Fuego" className="h-10 w-auto" />
           <span className="font-display text-xl font-bold tracking-tight">
-            Fuego<span className="text-primary"> Gas</span>
+            Fuego<span className="text-primary"> Gas Generator</span>
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">

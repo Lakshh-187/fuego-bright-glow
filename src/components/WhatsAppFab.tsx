@@ -3,7 +3,7 @@ import { MessageCircle } from "lucide-react";
 export function WhatsAppFab() {
   const phone = "2349041412211"; // Sales Head Arpit
   const text = encodeURIComponent(
-    "Hello Fuego Gas — I'd like to know more about your gas generator solutions."
+    "Hello Fuego Gas Generator — I'd like to know more about your gas generator solutions."
   );
   return (
     <a
