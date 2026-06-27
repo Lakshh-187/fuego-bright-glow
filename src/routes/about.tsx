@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
-import logo from "@/assets/fuego-logo.asset.json";
+import logo from "@/assets/fuego-logo-v2.asset.json";
 import { Building2, MapPin, FileText, Users, Award, Briefcase, Target, Eye, Sparkles, ShieldCheck, Leaf, Lightbulb, HeartHandshake, Mountain } from "lucide-react";
 
 export const Route = createFileRoute("/about")({

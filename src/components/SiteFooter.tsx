@@ -1,4 +1,4 @@
-import logo from "@/assets/fuego-logo.asset.json";
+import logo from "@/assets/fuego-logo-v2.asset.json";
 import { MapPin, Mail, Phone } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 
@@ -9,7 +9,7 @@ export function SiteFooter() {
         <div>
           <div className="flex items-center gap-2">
             <img src={logo.url} alt="Fuego" className="h-10 w-auto" />
-            <span className="font-display text-xl font-bold">Fuego Gas</span>
+            <span className="font-display text-xl font-bold">Fuego Gas Generator</span>
           </div>
           <p className="mt-4 text-sm text-white/70 leading-relaxed">
             Empowering Nigeria with reliable, eco-friendly & economical energy solutions — CNG, LPG and turnkey gas generator systems.
