@@ -54,7 +54,7 @@ function Home() {
 }
 
 const HERO_SLIDES = [
-  { img: img17.url, kicker: "Engineered Power", title: "Cummins-grade gas gensets, installed turnkey", sub: "From 15 kVA residential to 500 kVA industrial — designed, supplied and commissioned by Fuego engineers." },
+  { img: img17.url, kicker: "Engineered Power", title: "Cummins Engine with Leroy Somer Alternator", sub: "From 50 kVA residential to 500 kVA industrial projects & bigger — designed, supplied and commissioned by Fuego engineers." },
   { img: img15.url, kicker: "End-to-end Solutions", title: "LPG tank + generator + piping — one vendor", sub: "We engineer the entire energy island so your facility never waits on a second contractor." },
   { img: img10.url, kicker: "Genuine Cummins", title: "Powered by Chongqing Cummins QSK19 & QSN engines", sub: "ISO 9001, 14001, 45001 certified manufacturing with full GOEM authorisation." },
   { img: img16.url, kicker: "Global Collaboration", title: "Chinese OEM factories. Nigerian execution.", sub: "Strategic partnerships with KONTEC and Weifang Kangte for world-class gas gensets." },
@@ -156,7 +156,7 @@ function Stats() {
 
 function Products() {
   const products = [
-    { icon: Zap, title: "Cummins Gas Generators", desc: "15 kVA to 500 kVA HTG series LPG/CNG gensets built on the Cummins G-Drive 3.9L–38L engine platform.", tag: "15–500 kVA" },
+    { icon: Zap, title: "Gas Generators Powered by Cummins Engine", desc: "50 kVA to 350 kVA LPG gensets built on the Cummins G-Drive 3.9L–50L engine platform, and 100 kVA to 1 MW CNG gensets.", tag: "50–1000 kVA" },
     { icon: Fuel, title: "Propane Storage Tanks", desc: "Vertical and horizontal LPG storage solutions with minimal footprint and integrated piping.", tag: "Custom sizing" },
     { icon: Truck, title: "CNG & Propane Supply", desc: "CNG cascade and propane gas delivery across Nigeria with our own logistics fleet.", tag: "Nationwide" },
     { icon: Wrench, title: "Maintenance & AMC", desc: "Periodic service and annual maintenance contracts handled by BE Electrical & Mechanical engineers.", tag: "Same-day service" },
@@ -210,12 +210,11 @@ function Products() {
             </thead>
             <tbody className="divide-y divide-border">
               {[
-                ["HTG-50GF", "50", "62.5", "55", "68.4", "HT6B5.9-G", "2200×900×1400"],
-                ["HTG-100GF", "100", "125", "110", "137.5", "HT6CT8.3-G", "2450×1100×1650"],
-                ["HTG-150GF", "150", "200", "165", "220", "HT6LTAA8.9-G", "2450×1100×1650"],
-                ["HTG-200GF", "200", "250", "220", "275", "HTNTA855-G", "3200×1000×1930"],
-                ["HTG-300GF", "300", "375", "330", "412", "HTKTA19-G", "3850×1530×2270"],
-                ["HTG-500GF", "500", "625", "550", "687", "HTKTA38-G", "4300×1620×2370"],
+                ["KT-HTG-50GF", "50", "62.5", "55", "68.4", "HT6B5.9-G", "2200×900×1400"],
+                ["KT-HTG-100GF", "100", "125", "110", "137.5", "HT6CT8.3-G", "2450×1100×1650"],
+                ["KT-HTG-150GF", "150", "200", "165", "220", "HT6LTAA8.9-G", "2450×1100×1650"],
+                ["KT-HTG-200GF", "200", "250", "220", "275", "HTNTA855-G", "3200×1000×1930"],
+                ["KT-HTG-300GF", "300", "375", "330", "412", "HTKTA19-G", "3850×1530×2270"],
               ].map((r) => (
                 <tr key={r[0]} className="hover:bg-accent/40">
                   {r.map((c, i) => (
