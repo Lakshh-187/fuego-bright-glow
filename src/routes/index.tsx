@@ -54,7 +54,7 @@ function Home() {
 }
 
 const HERO_SLIDES = [
-  { img: img17.url, kicker: "Engineered Power", title: "Cummins-grade gas gensets, installed turnkey", sub: "From 15 kVA residential to 500 kVA industrial — designed, supplied and commissioned by Fuego engineers." },
+  { img: img17.url, kicker: "Engineered Power", title: "Cummins Engine with Leroy Somer Alternator", sub: "From 50 kVA residential to 500 kVA industrial projects & bigger — designed, supplied and commissioned by Fuego engineers." },
   { img: img15.url, kicker: "End-to-end Solutions", title: "LPG tank + generator + piping — one vendor", sub: "We engineer the entire energy island so your facility never waits on a second contractor." },
   { img: img10.url, kicker: "Genuine Cummins", title: "Powered by Chongqing Cummins QSK19 & QSN engines", sub: "ISO 9001, 14001, 45001 certified manufacturing with full GOEM authorisation." },
   { img: img16.url, kicker: "Global Collaboration", title: "Chinese OEM factories. Nigerian execution.", sub: "Strategic partnerships with KONTEC and Weifang Kangte for world-class gas gensets." },
