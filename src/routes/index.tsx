@@ -156,7 +156,7 @@ function Stats() {
 
 function Products() {
   const products = [
-    { icon: Zap, title: "Cummins Gas Generators", desc: "15 kVA to 500 kVA HTG series LPG/CNG gensets built on the Cummins G-Drive 3.9L–38L engine platform.", tag: "15–500 kVA" },
+    { icon: Zap, title: "Gas Generators Powered by Cummins Engine", desc: "50 kVA to 350 kVA LPG gensets built on the Cummins G-Drive 3.9L–50L engine platform, and 100 kVA to 1 MW CNG gensets.", tag: "50–1000 kVA" },
     { icon: Fuel, title: "Propane Storage Tanks", desc: "Vertical and horizontal LPG storage solutions with minimal footprint and integrated piping.", tag: "Custom sizing" },
     { icon: Truck, title: "CNG & Propane Supply", desc: "CNG cascade and propane gas delivery across Nigeria with our own logistics fleet.", tag: "Nationwide" },
     { icon: Wrench, title: "Maintenance & AMC", desc: "Periodic service and annual maintenance contracts handled by BE Electrical & Mechanical engineers.", tag: "Same-day service" },
