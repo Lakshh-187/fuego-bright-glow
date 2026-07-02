@@ -588,3 +588,206 @@ function Cta() {
     </section>
   );
 }
+
+function SpareParts() {
+  const parts = [
+    { icon: Gauge, t: "Gas Pressure Regulator", s: "Stable pressure — Made in Italy" },
+    { icon: Zap, t: "Electronic Throttle", s: "Reduces fuel consumption" },
+    { icon: Wind, t: "Vibration Absorber", s: "High-efficiency shock absorption" },
+    { icon: CircuitBoard, t: "Ignition System", s: "Longer life with technology" },
+    { icon: Filter, t: "Air-fuel Mixer", s: "IMPCO brand — Made in USA" },
+    { icon: ShieldCheck, t: "Flame Arrester", s: "Safe / prevents gas combustion" },
+    { icon: Settings, t: "Circuit Breaker", s: "Safe and long-lasting" },
+    { icon: Cog, t: "Turbo-charger", s: "Increases the power of the genset" },
+  ];
+  return (
+    <section id="spare-parts" className="bg-ember">
+      <div className="mx-auto max-w-7xl px-6 py-24">
+        <div className="max-w-2xl">
+          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Genuine components</span>
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold">Spare parts & service team</h2>
+          <p className="mt-4 text-muted-foreground">Every Fuego gas genset is built from certified branded components — with immediate replacement stock and a dedicated in-house service team.</p>
+        </div>
+
+        <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {parts.map(({ icon: Icon, t, s }) => (
+            <div key={t} className="rounded-2xl border border-border bg-card p-6 hover:shadow-flame hover:-translate-y-1 transition-all">
+              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-flame text-primary-foreground shadow-flame">
+                <Icon className="h-6 w-6" />
+              </div>
+              <h3 className="mt-4 font-bold">{t}</h3>
+              <p className="text-xs text-muted-foreground mt-1">{s}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-12 grid lg:grid-cols-2 gap-8">
+          <div className="rounded-2xl overflow-hidden border border-border bg-card shadow-soft">
+            <img src={img17.url} alt="Gas genset internal components — radiator, air-mixer, gas engine, ignition system" loading="lazy" className="w-full aspect-[4/3] object-cover" />
+            <div className="p-6">
+              <h3 className="text-xl font-bold">Anatomy of a Fuego gas genset</h3>
+              <p className="mt-2 text-sm text-muted-foreground">Radiator · Air-mixer · Gas engine · Solenoid valve · Pressure regulation valve · Steel base frame · Ignition system · Intelligent control cabinet · Brushless alternator · Flame arrester · Gas filter.</p>
+            </div>
+          </div>
+          <div className="rounded-2xl border border-border bg-card p-8 shadow-soft">
+            <div className="inline-flex items-center gap-2 rounded-full bg-accent px-3 py-1 text-xs font-semibold text-primary uppercase tracking-wider"><Users className="h-3.5 w-3.5" /> Service team</div>
+            <h3 className="mt-4 text-2xl font-bold">Warranty, response & engineering depth</h3>
+            <ul className="mt-6 space-y-3 text-sm">
+              {[
+                "Local & global warranty — 1 year or 1,200 running hours",
+                "Same-day response for client service calls",
+                "All replaceable spare parts available for immediate replacement",
+                "Chief engineer monitors every repair, routine service and maintenance issue",
+                "Team of BE Electrical & Mechanical engineers plus diploma technicians",
+                "Local service-provider tie-ups for faster rescue operations",
+                "Professional training for every service engineer",
+                "Factory engineers on call — remote or on-site within a week",
+              ].map((f) => (
+                <li key={f} className="flex gap-3">
+                  <CheckCircle2 className="h-5 w-5 text-primary shrink-0 mt-0.5" />
+                  <span>{f}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Operations() {
+  const states = ["Lagos State", "Ogun State", "Abuja (FCT)", "Asaba & adjoining states"];
+  return (
+    <section id="operations" className="mx-auto max-w-7xl px-6 py-24">
+      <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Operational presence</span>
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold">Nationwide reach across Nigeria</h2>
+          <p className="mt-4 text-muted-foreground">Grade One Service provides sales, installation and after-sales support across key Nigerian states — with strategically positioned service teams ensuring prompt response and reliable support throughout our areas of operation.</p>
+
+          <div className="mt-8">
+            <h3 className="text-sm font-semibold uppercase tracking-wider text-primary flex items-center gap-2"><MapPin className="h-4 w-4" /> Geographical coverage</h3>
+            <div className="mt-3 grid grid-cols-2 gap-3">
+              {states.map((s) => (
+                <div key={s} className="rounded-xl border border-border bg-card px-4 py-3 flex items-center gap-2 text-sm font-medium">
+                  <CheckCircle2 className="h-4 w-4 text-primary" /> {s}
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div className="rounded-2xl border border-border bg-card p-6 shadow-soft">
+            <Building2 className="h-6 w-6 text-primary" />
+            <h4 className="mt-3 font-bold">Head Office</h4>
+            <p className="text-sm text-muted-foreground mt-1">Lagos</p>
+          </div>
+          <div className="rounded-2xl border border-border bg-card p-6 shadow-soft">
+            <Building2 className="h-6 w-6 text-primary" />
+            <h4 className="mt-3 font-bold">Branch Office</h4>
+            <p className="text-sm text-muted-foreground mt-1">Abuja</p>
+          </div>
+          <div className="rounded-2xl border border-border bg-card p-6 shadow-soft sm:col-span-2">
+            <Warehouse className="h-6 w-6 text-primary" />
+            <h4 className="mt-3 font-bold">Warehouses</h4>
+            <ul className="mt-2 text-sm text-muted-foreground space-y-1">
+              <li>• Matori Industrial Area, Lagos</li>
+              <li>• Isolo Industrial Area, Lagos</li>
+            </ul>
+          </div>
+          <div className="rounded-2xl bg-flame text-primary-foreground p-6 shadow-flame sm:col-span-2">
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider opacity-90"><Truck className="h-4 w-4" /> Response promise</div>
+            <p className="mt-2 text-lg font-semibold">Same-day service response across all covered states — with local partner network for rapid rescue operations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Team() {
+  const leadership = [
+    {
+      name: "Capt. MMS Boura (Retd. Indian Army)",
+      role: "Director / Managing Director",
+      bio: "A seasoned professional with a strong foundation in military and corporate leadership. Science graduate and alumnus of the Officers Training Academy, India. Over 25 years of expertise in corporate administration, safety, security and fire management. Six Sigma Green Belt in Quality Management Systems and certified auditor for EMS 14001 and OHSAS 18001. Successfully managed AGO supply business in Nigeria for over 14 years, now diversifying into the gas generator business.",
+    },
+    {
+      name: "Mr. Gabriel Idahosa",
+      role: "Director",
+      bio: "Distinguished Nigerian chartered accountant, business leader, and former President and Chairman of the Council of the Lagos Chamber of Commerce and Industry (LCCI). With over four decades of professional experience across various sectors, he is a prominent voice on national economic policy, foreign investment, and trade in Nigeria.",
+    },
+  ];
+  const technical = [
+    {
+      name: "Engr. Arpit Tomar",
+      role: "B2B Sales Advisor — Abuja / Fuego Sales Head",
+      bio: "Serves as the B2B Sales Advisor for Grade One Service in Abuja. Extensive experience in industrial sales and customer relationship management — developing strategic partnerships and delivering customised energy solutions to commercial and industrial clients across Northern Nigeria.",
+      img: arpitImg.url,
+    },
+    {
+      name: "Engr. Richard Arannonu",
+      role: "Technical Sales / Project Engineer",
+      bio: "Responsible for providing technical support and energy solutions to customers across various sectors. Expertise covers generator systems, gas conversion projects and turnkey power solutions.",
+    },
+    {
+      name: "Engr. Anil Verma",
+      role: "Sales Manager",
+      bio: "Specialises in power generation and energy solutions. Works closely with clients to develop reliable and cost-effective generator and gas infrastructure solutions tailored to industrial and commercial applications.",
+    },
+    {
+      name: "Engr. Chukwuemeka Iheme",
+      role: "MD / CEO, Gasavant Africa",
+      bio: "Gasavant Africa Limited serves as Grade One Service's technical sales partner — providing engineering expertise and after-sales support for generator systems, gas storage infrastructure and energy projects.",
+    },
+  ];
+  return (
+    <section id="team" className="bg-ember">
+      <div className="mx-auto max-w-7xl px-6 py-24">
+        <div className="max-w-2xl">
+          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Our people</span>
+          <h2 className="mt-3 text-4xl md:text-5xl font-bold">Leadership & technical team</h2>
+          <p className="mt-4 text-muted-foreground">Decades of military-grade discipline, chartered financial leadership and hands-on power engineering — the team behind every Fuego installation.</p>
+        </div>
+
+        <h3 className="mt-14 text-sm font-semibold uppercase tracking-wider text-primary">Leadership</h3>
+        <div className="mt-4 grid lg:grid-cols-2 gap-6">
+          {leadership.map((p) => (
+            <div key={p.name} className="rounded-2xl border border-border bg-card p-8 shadow-soft">
+              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-flame text-primary-foreground shadow-flame">
+                <Award className="h-6 w-6" />
+              </div>
+              <h4 className="mt-4 text-xl font-bold">{p.name}</h4>
+              <div className="text-sm font-semibold text-primary">{p.role}</div>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
+            </div>
+          ))}
+        </div>
+
+        <h3 className="mt-14 text-sm font-semibold uppercase tracking-wider text-primary">Technical team</h3>
+        <div className="mt-4 grid md:grid-cols-2 gap-6">
+          {technical.map((p) => (
+            <div key={p.name} className="rounded-2xl border border-border bg-card p-6 shadow-soft flex gap-5">
+              <div className="shrink-0">
+                {p.img ? (
+                  <img src={p.img} alt={p.name} loading="lazy" className="h-24 w-24 rounded-2xl object-cover border-2 border-primary/30" />
+                ) : (
+                  <div className="h-24 w-24 rounded-2xl bg-flame text-primary-foreground flex items-center justify-center shadow-flame">
+                    <Users className="h-10 w-10" />
+                  </div>
+                )}
+              </div>
+              <div>
+                <h4 className="text-lg font-bold">{p.name}</h4>
+                <div className="text-xs font-semibold text-primary">{p.role}</div>
+                <p className="mt-2 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
