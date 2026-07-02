@@ -14,10 +14,11 @@ import img15 from "@/assets/image-15.png.asset.json";
 import img16 from "@/assets/image-16.png.asset.json";
 import img17 from "@/assets/image-17.png.asset.json";
 import img18 from "@/assets/image-18.png.asset.json";
+import arpitImg from "@/assets/arpit.png.asset.json";
 import {
   Flame, Zap, Fuel, Wrench, ShieldCheck, Leaf, Truck, Factory,
   CheckCircle2, ArrowRight, Gauge, Cpu, ChevronRight, TrendingDown,
-  Award, Users, BadgeCheck
+  Award, Users, BadgeCheck, MapPin, Building2, Warehouse, Wind, Filter, Cog, Settings, CircuitBoard
 } from "lucide-react";
 
 export const Route = createFileRoute("/")({
@@ -44,8 +45,11 @@ function Home() {
       <Manufacturing />
       <StorageTanks />
       <Savings />
+      <SpareParts />
       <Certifications />
       <Memberships />
+      <Operations />
+      <Team />
       <Maintenance />
       <Cta />
       <SiteFooter />
