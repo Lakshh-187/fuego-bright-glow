@@ -15,6 +15,11 @@ import img16 from "@/assets/image-16.png.asset.json";
 import img17 from "@/assets/image-17.png.asset.json";
 import img18 from "@/assets/image-18.png.asset.json";
 import arpitImg from "@/assets/arpit.png.asset.json";
+import bouraImg from "@/assets/boura.png.asset.json";
+import idahosaImg from "@/assets/idahosa.png.asset.json";
+import richardImg from "@/assets/richard.png.asset.json";
+import anilImg from "@/assets/anil.png.asset.json";
+import ihemeImg from "@/assets/iheme.png.asset.json";
 import {
   Flame, Zap, Fuel, Wrench, ShieldCheck, Leaf, Truck, Factory,
   CheckCircle2, ArrowRight, Gauge, Cpu, ChevronRight, TrendingDown,
@@ -713,11 +718,13 @@ function Team() {
       name: "Capt. MMS Boura (Retd. Indian Army)",
       role: "Director / Managing Director",
       bio: "A seasoned professional with a strong foundation in military and corporate leadership. Science graduate and alumnus of the Officers Training Academy, India. Over 25 years of expertise in corporate administration, safety, security and fire management. Six Sigma Green Belt in Quality Management Systems and certified auditor for EMS 14001 and OHSAS 18001. Successfully managed AGO supply business in Nigeria for over 14 years, now diversifying into the gas generator business.",
+      img: bouraImg.url,
     },
     {
       name: "Mr. Gabriel Idahosa",
       role: "Director",
       bio: "Distinguished Nigerian chartered accountant, business leader, and former President and Chairman of the Council of the Lagos Chamber of Commerce and Industry (LCCI). With over four decades of professional experience across various sectors, he is a prominent voice on national economic policy, foreign investment, and trade in Nigeria.",
+      img: idahosaImg.url,
     },
   ];
   const technical = [
@@ -731,16 +738,19 @@ function Team() {
       name: "Engr. Richard Arannonu",
       role: "Technical Sales / Project Engineer",
       bio: "Responsible for providing technical support and energy solutions to customers across various sectors. Expertise covers generator systems, gas conversion projects and turnkey power solutions.",
+      img: richardImg.url,
     },
     {
       name: "Engr. Anil Verma",
       role: "Sales Manager",
       bio: "Specialises in power generation and energy solutions. Works closely with clients to develop reliable and cost-effective generator and gas infrastructure solutions tailored to industrial and commercial applications.",
+      img: anilImg.url,
     },
     {
       name: "Engr. Chukwuemeka Iheme",
       role: "MD / CEO, Gasavant Africa",
       bio: "Gasavant Africa Limited serves as Grade One Service's technical sales partner — providing engineering expertise and after-sales support for generator systems, gas storage infrastructure and energy projects.",
+      img: ihemeImg.url,
     },
   ];
   return (
@@ -755,13 +765,15 @@ function Team() {
         <h3 className="mt-14 text-sm font-semibold uppercase tracking-wider text-primary">Leadership</h3>
         <div className="mt-4 grid lg:grid-cols-2 gap-6">
           {leadership.map((p) => (
-            <div key={p.name} className="rounded-2xl border border-border bg-card p-8 shadow-soft">
-              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-flame text-primary-foreground shadow-flame">
-                <Award className="h-6 w-6" />
+            <div key={p.name} className="rounded-2xl border border-border bg-card p-8 shadow-soft flex gap-6">
+              <div className="shrink-0">
+                <img src={p.img} alt={p.name} loading="lazy" className="h-28 w-28 rounded-2xl object-cover border-2 border-primary/30" />
               </div>
-              <h4 className="mt-4 text-xl font-bold">{p.name}</h4>
-              <div className="text-sm font-semibold text-primary">{p.role}</div>
-              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
+              <div>
+                <h4 className="text-xl font-bold">{p.name}</h4>
+                <div className="text-sm font-semibold text-primary">{p.role}</div>
+                <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
+              </div>
             </div>
           ))}
         </div>
