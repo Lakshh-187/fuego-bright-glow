@@ -15,6 +15,11 @@ import img16 from "@/assets/image-16.png.asset.json";
 import img17 from "@/assets/image-17.png.asset.json";
 import img18 from "@/assets/image-18.png.asset.json";
 import arpitImg from "@/assets/arpit.png.asset.json";
+import bouraImg from "@/assets/boura.png.asset.json";
+import idahosaImg from "@/assets/idahosa.png.asset.json";
+import richardImg from "@/assets/richard.png.asset.json";
+import anilImg from "@/assets/anil.png.asset.json";
+import ihemeImg from "@/assets/iheme.png.asset.json";
 import {
   Flame, Zap, Fuel, Wrench, ShieldCheck, Leaf, Truck, Factory,
   CheckCircle2, ArrowRight, Gauge, Cpu, ChevronRight, TrendingDown,
