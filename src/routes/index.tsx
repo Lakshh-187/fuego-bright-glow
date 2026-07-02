@@ -765,13 +765,15 @@ function Team() {
         <h3 className="mt-14 text-sm font-semibold uppercase tracking-wider text-primary">Leadership</h3>
         <div className="mt-4 grid lg:grid-cols-2 gap-6">
           {leadership.map((p) => (
-            <div key={p.name} className="rounded-2xl border border-border bg-card p-8 shadow-soft">
-              <div className="inline-flex h-12 w-12 items-center justify-center rounded-xl bg-flame text-primary-foreground shadow-flame">
-                <Award className="h-6 w-6" />
+            <div key={p.name} className="rounded-2xl border border-border bg-card p-8 shadow-soft flex gap-6">
+              <div className="shrink-0">
+                <img src={p.img} alt={p.name} loading="lazy" className="h-28 w-28 rounded-2xl object-cover border-2 border-primary/30" />
               </div>
-              <h4 className="mt-4 text-xl font-bold">{p.name}</h4>
-              <div className="text-sm font-semibold text-primary">{p.role}</div>
-              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
+              <div>
+                <h4 className="text-xl font-bold">{p.name}</h4>
+                <div className="text-sm font-semibold text-primary">{p.role}</div>
+                <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{p.bio}</p>
+              </div>
             </div>
           ))}
         </div>
