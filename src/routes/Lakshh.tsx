@@ -121,7 +121,7 @@ function LakshhPage() {
               Tech Advisor & Auditor
             </div>
             <h1 className="mt-5 font-display text-4xl font-extrabold leading-tight text-ink md:text-5xl lg:text-6xl">
-              Lakshh
+              Auditor
             </h1>
             <p className="mt-2 font-display text-xl font-semibold text-primary md:text-2xl">
               Lakshay Choudhary (Inderjeet)
@@ -200,6 +200,20 @@ function LakshhPage() {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Collaboration factory */}
+      <section className="px-4 pt-14">
+        <div className="mx-auto max-w-6xl">
+          <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-soft">
+            <img
+              src="/assets/fuego-chinese-factory.png"
+              alt="Fuego — Chinese collaboration factory visit with KONTEC and Weifang Kangte Gas Generator teams"
+              className="w-full object-cover"
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
