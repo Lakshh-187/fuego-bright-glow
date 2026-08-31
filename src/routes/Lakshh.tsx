@@ -204,6 +204,20 @@ function LakshhPage() {
         </div>
       </section>
 
+      {/* Collaboration factory */}
+      <section className="px-4 pt-14">
+        <div className="mx-auto max-w-6xl">
+          <div className="overflow-hidden rounded-3xl border border-border bg-card shadow-soft">
+            <img
+              src="/assets/fuego-chinese-factory.png"
+              alt="Fuego — Chinese collaboration factory visit with KONTEC and Weifang Kangte Gas Generator teams"
+              className="w-full object-cover"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Expertise */}
       <section className="px-4 py-16">
         <div className="mx-auto max-w-6xl">
