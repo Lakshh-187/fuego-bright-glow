@@ -121,7 +121,7 @@ function LakshhPage() {
               Tech Advisor & Auditor
             </div>
             <h1 className="mt-5 font-display text-4xl font-extrabold leading-tight text-ink md:text-5xl lg:text-6xl">
-              Lakshh
+              Auditor
             </h1>
             <p className="mt-2 font-display text-xl font-semibold text-primary md:text-2xl">
               Lakshay Choudhary (Inderjeet)
