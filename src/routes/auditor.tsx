@@ -15,7 +15,7 @@ import {
 
 import lakshayProfile from "@/assets/lakshay-profile.jpg.asset.json";
 
-export const Route = createFileRoute("/Lakshh")({
+export const Route = createFileRoute("/auditor")({
   head: () => ({
     meta: [
       { title: "Auditor — Tech Advisor & Auditor | Fuego Gas Generator" },
