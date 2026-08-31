@@ -18,7 +18,7 @@ import lakshayProfile from "@/assets/lakshay-profile.jpg.asset.json";
 export const Route = createFileRoute("/Lakshh")({
   head: () => ({
     meta: [
-      { title: "Lakshh — Tech Advisor & Auditor | Fuego Gas Generator" },
+      { title: "Auditor — Tech Advisor & Auditor | Fuego Gas Generator" },
       {
         name: "description",
         content:
@@ -26,7 +26,7 @@ export const Route = createFileRoute("/Lakshh")({
       },
       {
         property: "og:title",
-        content: "Lakshh — Tech Advisor & Auditor | Fuego Gas Generator",
+        content: "Auditor — Tech Advisor & Auditor | Fuego Gas Generator",
       },
       {
         property: "og:description",
@@ -284,7 +284,7 @@ function LakshhPage() {
                   "Technology should be invisible, secure, and always ready."
                 </p>
                 <p className="mt-4 text-sm opacity-90">
-                  — Lakshh, Tech Advisor & Auditor
+                  — Auditor, Tech Advisor & Auditor
                 </p>
               </div>
             </div>
