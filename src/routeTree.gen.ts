@@ -9,18 +9,18 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as AuditorRouteImport } from './routes/auditor'
 import { Route as AboutRouteImport } from './routes/about'
+import { Route as LakshhRouteImport } from './routes/Lakshh'
 import { Route as IndexRouteImport } from './routes/index'
 
-const AuditorRoute = AuditorRouteImport.update({
-  id: '/auditor',
-  path: '/auditor',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const AboutRoute = AboutRouteImport.update({
   id: '/about',
   path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LakshhRoute = LakshhRouteImport.update({
+  id: '/Lakshh',
+  path: '/Lakshh',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -31,48 +31,48 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/Lakshh': typeof LakshhRoute
   '/about': typeof AboutRoute
-  '/auditor': typeof AuditorRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/Lakshh': typeof LakshhRoute
   '/about': typeof AboutRoute
-  '/auditor': typeof AuditorRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/Lakshh': typeof LakshhRoute
   '/about': typeof AboutRoute
-  '/auditor': typeof AuditorRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/about' | '/auditor'
+  fullPaths: '/' | '/Lakshh' | '/about'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/auditor'
-  id: '__root__' | '/' | '/about' | '/auditor'
+  to: '/' | '/Lakshh' | '/about'
+  id: '__root__' | '/' | '/Lakshh' | '/about'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  LakshhRoute: typeof LakshhRoute
   AboutRoute: typeof AboutRoute
-  AuditorRoute: typeof AuditorRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/auditor': {
-      id: '/auditor'
-      path: '/auditor'
-      fullPath: '/auditor'
-      preLoaderRoute: typeof AuditorRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/about': {
       id: '/about'
       path: '/about'
       fullPath: '/about'
       preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/Lakshh': {
+      id: '/Lakshh'
+      path: '/Lakshh'
+      fullPath: '/Lakshh'
+      preLoaderRoute: typeof LakshhRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -87,8 +87,8 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  LakshhRoute: LakshhRoute,
   AboutRoute: AboutRoute,
-  AuditorRoute: AuditorRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -15,7 +15,7 @@ import {
 
 import lakshayProfile from "@/assets/lakshay-profile.jpg.asset.json";
 
-export const Route = createFileRoute("/auditor")({
+export const Route = createFileRoute("/Lakshh")({
   head: () => ({
     meta: [
       { title: "Auditor — Tech Advisor & Auditor | Fuego Gas Generator" },
@@ -37,7 +37,7 @@ export const Route = createFileRoute("/auditor")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  component: AuditorPage,
+  component: LakshhPage,
 });
 
 const expertise = [
@@ -88,7 +88,7 @@ const auditHighlights = [
   "Technology roadmap & vendor evaluation",
 ];
 
-function AuditorPage() {
+function LakshhPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Top bar */}
