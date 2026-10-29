@@ -16,6 +16,7 @@ import img17 from "@/assets/image-17.png.asset.json";
 import img18 from "@/assets/image-18.png.asset.json";
 import bouraImg from "@/assets/boura.png.asset.json";
 import idahosaImg from "@/assets/idahosa.png.asset.json";
+import richardImg from "@/assets/richard.png.asset.json";
 import ihemeImg from "@/assets/iheme.png.asset.json";
 import {
   Flame, Zap, Fuel, Wrench, ShieldCheck, Leaf, Truck, Factory,
