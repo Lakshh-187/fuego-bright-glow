@@ -732,12 +732,6 @@ function Team() {
       img: richardImg.url,
     },
     {
-      name: "Engr. Anil Verma",
-      role: "Sales Manager",
-      bio: "Specialises in power generation and energy solutions. Works closely with clients to develop reliable and cost-effective generator and gas infrastructure solutions tailored to industrial and commercial applications.",
-      img: anilImg.url,
-    },
-    {
       name: "Engr. Chukwuemeka Iheme",
       role: "MD / CEO, Gasavant Africa",
       bio: "Gasavant Africa Limited serves as Grade One Service's technical sales partner — providing engineering expertise and after-sales support for generator systems, gas storage infrastructure and energy projects.",
