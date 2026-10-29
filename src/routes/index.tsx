@@ -14,11 +14,9 @@ import img15 from "@/assets/image-15.png.asset.json";
 import img16 from "@/assets/image-16.png.asset.json";
 import img17 from "@/assets/image-17.png.asset.json";
 import img18 from "@/assets/image-18.png.asset.json";
-import arpitImg from "@/assets/arpit.png.asset.json";
 import bouraImg from "@/assets/boura.png.asset.json";
 import idahosaImg from "@/assets/idahosa.png.asset.json";
 import richardImg from "@/assets/richard.png.asset.json";
-import anilImg from "@/assets/anil.png.asset.json";
 import ihemeImg from "@/assets/iheme.png.asset.json";
 import {
   Flame, Zap, Fuel, Wrench, ShieldCheck, Leaf, Truck, Factory,
@@ -729,22 +727,10 @@ function Team() {
   ];
   const technical = [
     {
-      name: "Engr. Arpit Tomar",
-      role: "B2B Sales Advisor — Abuja / Fuego Sales Head",
-      bio: "Serves as the B2B Sales Advisor for Grade One Service in Abuja. Extensive experience in industrial sales and customer relationship management — developing strategic partnerships and delivering customised energy solutions to commercial and industrial clients across Northern Nigeria.",
-      img: arpitImg.url,
-    },
-    {
       name: "Engr. Richard Arannonu",
       role: "Technical Sales / Project Engineer",
       bio: "Responsible for providing technical support and energy solutions to customers across various sectors. Expertise covers generator systems, gas conversion projects and turnkey power solutions.",
       img: richardImg.url,
-    },
-    {
-      name: "Engr. Anil Verma",
-      role: "Sales Manager",
-      bio: "Specialises in power generation and energy solutions. Works closely with clients to develop reliable and cost-effective generator and gas infrastructure solutions tailored to industrial and commercial applications.",
-      img: anilImg.url,
     },
     {
       name: "Engr. Chukwuemeka Iheme",
