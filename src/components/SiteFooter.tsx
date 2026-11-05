@@ -55,7 +55,7 @@ export function SiteFooter() {
                 <li><a href="tel:+2348082500793" className="hover:text-primary">+234 808 2500 793</a></li>
               </ul>
             </li>
-            <li><a href="https://wa.me/2349041412211" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90">WhatsApp Sales Help Desk</a></li>
+            <li><a href="https://wa.me/2348091756468" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-3 py-1.5 text-xs font-semibold text-white hover:opacity-90">WhatsApp Sales Help Desk</a></li>
           </ul>
           <h4 className="text-white font-semibold mt-8 mb-4">Find us</h4>
           <ul className="space-y-3 text-sm text-white/70">
