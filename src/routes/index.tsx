@@ -579,7 +579,7 @@ function Cta() {
           <h2 className="text-4xl md:text-5xl font-bold">Switch to cleaner, cheaper power.</h2>
           <p className="mt-4 text-lg opacity-95">Talk to our engineers about a turnkey LPG or CNG generator solution sized to your facility — installed and commissioned by Fuego.</p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="tel:+234" className="inline-flex items-center gap-2 rounded-full bg-white text-foreground px-7 py-3.5 font-semibold hover:bg-white/90 transition">
+            <a href="tel:+2348091756468" className="inline-flex items-center gap-2 rounded-full bg-white text-foreground px-7 py-3.5 font-semibold hover:bg-white/90 transition">
               Request a quote <ArrowRight className="h-4 w-4" />
             </a>
             <a href="https://maps.app.goo.gl/qHjiVyffqEUjXFai8?g_st=awb" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 font-semibold hover:bg-white/10 transition">

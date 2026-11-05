@@ -20,10 +20,10 @@ export function SiteHeader() {
           <Link to="/about" className="hover:text-primary transition" activeProps={{ className: "text-primary" }}>About</Link>
         </nav>
         <a
-          href="tel:+234"
+          href="tel:+2348091756468"
           className="hidden sm:inline-flex items-center gap-2 rounded-full bg-flame text-primary-foreground px-5 py-2 text-sm font-semibold shadow-flame hover:opacity-95 transition"
         >
-          <Phone className="h-4 w-4" /> Contact
+          <Phone className="h-4 w-4" /> +234 809 175 6468
         </a>
       </div>
     </header>
